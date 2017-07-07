@@ -1,0 +1,75 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 655
+  ClientWidth = 679
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Position.X = -16.000000000000000000
+    Position.Y = -16.000000000000000000
+    Size.Width = 713.000000000000000000
+    Size.Height = 745.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Edit1: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 1
+      Text = 'Inserire Codice Fiscale'
+      TextSettings.Font.Size = 16.000000000000000000
+      Position.X = 80.000000000000000000
+      Position.Y = 72.000000000000000000
+      Margins.Left = 50.000000000000000000
+      Margins.Top = 50.000000000000000000
+      Margins.Right = 50.000000000000000000
+      Size.Width = 313.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Family, Style, FontColor]
+    end
+    object Edit2: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 0
+      Text = 'Inserire Password'
+      TextSettings.Font.Size = 16.000000000000000000
+      Position.X = 80.000000000000000000
+      Position.Y = 160.000000000000000000
+      Margins.Left = 50.000000000000000000
+      Margins.Top = 50.000000000000000000
+      Margins.Right = 50.000000000000000000
+      Size.Width = 313.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Family, Style, FontColor]
+    end
+    object Text1: TText
+      Margins.Left = 100.000000000000000000
+      Margins.Right = 100.000000000000000000
+      Position.X = 80.000000000000000000
+      Position.Y = 232.000000000000000000
+      Size.Width = 314.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Registrazione'
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claCrimson
+      OnClick = Text1Click
+    end
+    object Text2: TText
+      Margins.Left = 100.000000000000000000
+      Margins.Right = 100.000000000000000000
+      Position.X = 80.000000000000000000
+      Position.Y = 304.000000000000000000
+      Size.Width = 314.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Recupera Password'
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claCrimson
+    end
+  end
+end

@@ -1,0 +1,13 @@
+inherited Form1_NmXhdpiPh: TForm1_NmXhdpiPh
+  ClientHeight = 615
+  ClientWidth = 400
+  DesignerMasterStyle = 0
+  inherited Layout1: TLayout
+    inherited Text1: TText
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+    inherited Text2: TText
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+end
