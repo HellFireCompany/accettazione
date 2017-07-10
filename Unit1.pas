@@ -57,7 +57,6 @@ else
     restrequest1.AddAuthParameter('codicefiscale',edit1.Text,TRESTRequestParameterKind.pkGETorPOST);
     restrequest1.AddAuthParameter('pas',edit2.Text,TRESTRequestParameterKind.pkGETorPOST);
     restrequest1.Execute;
-    form2.memo1.text:= restresponse1.content;
     form2.show;
 
 
